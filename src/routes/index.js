@@ -20,6 +20,7 @@ import Banners from '../components/ui/banners';
 import Drags from '../components/ui/Draggable';
 import Dashboard from '../components/dashboard/Dashboard';
 import Gallery from '../components/ui/Gallery';
+import Todo from '../components/ui/Todo';
 import BasicAnimations from '../components/animation/BasicAnimations';
 import ExampleAnimations from '../components/animation/ExampleAnimations';
 import AuthBasic from '../components/auth/Basic';
@@ -63,6 +64,7 @@ export default class CRouter extends Component {
                 <Route exact path="/app/ui/wysiwyg" component={WysiwygBundle} />
                 <Route exact path="/app/ui/drags" component={Drags} />
                 <Route exact path="/app/ui/gallery" component={Gallery} />
+                <Route exact path="/app/ui/todo" component={Todo} />
 
                 <Route exact path="/app/animation/basicAnimations" component={BasicAnimations} />
                 <Route exact path="/app/animation/exampleAnimations" component={ExampleAnimations} />
